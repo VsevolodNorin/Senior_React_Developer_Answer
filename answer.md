@@ -71,5 +71,5 @@ Page layout could be easily made using css grids provided we're not expected to 
 
 There is no different how we'd handle our styles, but I'd suggest CSS-IN-JS way (especially [styled-components](https://styled-components.com/) because they allow the developer to write very readable react code without the need to wrap every div to its own component).
 
-And some words about testing: I'm [not a big fan](joshribakoff.com/jest-snapshot-testing-considered-harmful/) of snapshot testing, we could easily test our components behaviour by checking if they render all the information they should, and don't render anything they should not. It should give us some regression protection with a low cost. Also we could use cypress to do some e2e-testing later.
+And some words about testing: I'm [not a big fan](http://joshribakoff.com/jest-snapshot-testing-considered-harmful/) of snapshot testing, we could easily test our components behaviour by checking if they render all the information they should, and don't render anything they should not. It should give us some regression protection with a low cost. Also we could use cypress to do some e2e-testing later.
 
